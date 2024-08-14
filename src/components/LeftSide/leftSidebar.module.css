@@ -1,7 +1,7 @@
 .heading {
     font-size: 30px;
     font-weight: 500;
-    position: absolute;
+    position: sticky;
     width: 100%;
     text-align: center;
     top: 30px;
@@ -53,17 +53,12 @@
     background-color:#16008B;
     border: none;
     bottom: 30px;
-    right: 30px;
-    position: absolute;
+    /* right: 30px; */
+    margin-left: calc(100% - 90px);
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     z-index: 14;
-}
-
-@media (max-width: 500px) {
-    .addBtn {
-        bottom: 85px;
-    }
 }
