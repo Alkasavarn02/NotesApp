@@ -1,0 +1,114 @@
+.popup-modal-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(47, 47, 47, 0.749);
+}
+
+.popup-modal-container .popup-modal {
+    background-color: #fff;
+    padding: 20px 40px;
+    font-family: Roboto;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.popup-modal-container .popup-modal .heading {
+    font-size: 25px;
+}
+
+.popup-modal-container .popup-modal .input-box {
+    gap: 15px;
+    align-items: center;
+    font-family: Roboto;
+    margin-top: 15px;
+}
+
+.popup-modal-container .popup-modal .label-heading {
+    font-size: 20px;
+}
+
+.popup-modal-container .popup-modal .input-box input {
+    width: 275px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 2px solid #979797;
+    font-size: 15px;
+}
+
+.popup-modal-container .popup-modal .color-box {
+    margin-top: 15px;
+    gap:25px;
+    align-items: center;
+}
+.popup-modal-container .popup-modal .color-box ul {
+    gap: 10px;
+}
+
+.popup-modal-container .popup-modal .color-box .color-select {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup-modal-container .popup-modal .create-button {
+    margin-top: 25px;
+    text-align: end;
+}
+.popup-modal-container .popup-modal .create-button button {
+    width: 125px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #001F8B;
+    font-size: 15px;
+    border: none;
+}
+
+
+@media (max-width: 500px) {
+    .popup-modal-container .popup-modal {
+        padding: 17px 10px;
+        width: 90%;
+    }
+
+    .popup-modal-container .popup-modal .heading {
+        font-size: 22px;
+    }
+
+    .popup-modal-container .popup-modal .input-box,
+    .popup-modal-container .popup-modal .color-box {
+        gap: 9px;
+    }
+
+    .popup-modal-container .popup-modal .label-heading {
+        font-size: 15px;
+    }
+
+    .popup-modal-container .popup-modal .input-box input {
+        width: 190px;
+        padding: 6px 11px;
+    }
+
+    .popup-modal-container .popup-modal .color-box ul {
+        gap: 7px;
+    }
+
+    .popup-modal-container .popup-modal .color-box .color-select {
+        width: 23px;
+        height: 23px;
+    }
+
+    .popup-modal-container .popup-modal .create-button {
+        text-align: center;
+    }
+    .popup-modal-container .popup-modal .create-button button {
+        width: 200px;
+        border-radius: 6px;
+    }
+}

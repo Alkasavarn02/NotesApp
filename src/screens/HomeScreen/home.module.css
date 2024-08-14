@@ -1,0 +1,55 @@
+.left-sidebar {
+    position: relative;
+    max-width: 434px;
+    width: 100%;
+    height: 100vh;
+}
+
+.right-section {
+    max-width: calc( 100% - 434px );
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #dae5f5;
+}
+
+.right-section .img-box {
+    max-width: 600px;
+    width: 100%;
+    height: 220px;
+}
+
+.right-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.right-section p {
+    max-width: 520px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color:#292929;
+}
+
+.right-section .footer {
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    bottom: 20px;
+}
+.right-section .footer .lock-img-box {
+    width: 15px;
+}
+
+
+
+@media (max-width: 434px) {
+    .right-section {
+        display: none;
+    }
+}

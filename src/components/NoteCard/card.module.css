@@ -1,0 +1,37 @@
+.note-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    padding: 20px 14px 14px 14px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+
+.note-card:last-child {
+    margin-bottom: 0;
+}
+
+.time-stamp {
+    font-size: 12px;
+    color: #353535;
+    margin-top: 14px;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+
+.time-stamp span:nth-child(2) {
+    width: 5px;
+    height: 5px;
+    background-color: #353535;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 500px) {
+    .note-card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
