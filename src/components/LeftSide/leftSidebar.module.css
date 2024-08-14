@@ -1,18 +1,16 @@
 .heading {
     font-size: 30px;
     font-weight: 500;
-    position: sticky;
+    position: absolute;
     width: 100%;
     text-align: center;
     top: 30px;
     z-index: 14;
-    padding-bottom: 30px;
-    background-color: #fff;
 }
 
 .notes-list {
-    margin-top: 60px;
-    height: calc(100vh - 60px);
+    margin-top: 90px;
+    height: calc(100vh - 95px);
     overflow-y: auto;
 }
 
@@ -55,9 +53,8 @@
     background-color:#16008B;
     border: none;
     bottom: 30px;
-    /* right: 30px; */
-    margin-left: calc(100% - 90px);
-    position: sticky;
+    right: 30px;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
