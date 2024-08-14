@@ -52,7 +52,7 @@
     border-radius: 50%;
     background-color:#16008B;
     border: none;
-    bottom: 65px;
+    bottom: 30px;
     right: 30px;
     position: absolute;
     display: flex;
@@ -60,4 +60,10 @@
     align-items: center;
     cursor: pointer;
     z-index: 14;
+}
+
+@media (max-width: 500px) {
+    .addBtn {
+        bottom: 90px;
+    }
 }
