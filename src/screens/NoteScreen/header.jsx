@@ -3,9 +3,12 @@ import { useEffect, useState } from 'react';
 import styles from './note.module.css';
 import { getInitials } from '../../utils/helper';
 
+import LeftArrow from '../../assets/leftArrow.png'
+import { useNavigate } from 'react-router-dom';
+
 
 const NoteHeader = ({ id }) => {
-    
+    const navigate = useNavigate();
     const [currentNote, setCurrentNote] = useState();
 
     useEffect(() => {
@@ -19,6 +22,14 @@ const NoteHeader = ({ id }) => {
 
     return (
         <header className={`${styles?.['notes-header']} d-flex`}>
+            <div
+                className={styles?.['back-arrow']}
+                onClick={() => {
+                    navigate('/');
+                }}    
+            >
+                <img src={LeftArrow} alt='Left Arrow' />
+            </div>
             <span
                 className={styles.icon}
                 style={{ backgroundColor: currentNote?.iconColor }}

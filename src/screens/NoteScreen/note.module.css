@@ -20,7 +20,11 @@
     color: #fff;
     padding: 14px;
 }
-
+.notes-header .back-arrow {
+    width: 16px;
+    height: 12px;
+    display: none;
+}
 .notes-header span {
     display: block;
     font-weight: 500;
@@ -91,6 +95,10 @@
 @media (max-width: 500px) {
     .left-sidebar {
         display: none;
+    }
+
+    .notes-header .back-arrow {
+        display: block;
     }
 
     .notes-section {
