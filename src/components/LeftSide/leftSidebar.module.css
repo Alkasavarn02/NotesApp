@@ -11,7 +11,7 @@
 }
 
 .notes-list {
-    /* margin-top: 60px; */
+    margin-top: 60px;
     height: calc(100vh - 95px);
     overflow-y: auto;
 }
