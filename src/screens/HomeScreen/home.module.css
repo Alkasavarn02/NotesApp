@@ -46,8 +46,6 @@
     width: 15px;
 }
 
-
-
 @media (max-width: 434px) {
     .right-section {
         display: none;
